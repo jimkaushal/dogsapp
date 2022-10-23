@@ -27,6 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dog img {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.dog span {
+  font-size: 10px;
+  position: absolute;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 130px;
+  margin-left: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
